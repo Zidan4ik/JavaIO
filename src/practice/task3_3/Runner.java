@@ -24,6 +24,8 @@ public class Runner {
             for (String name : names) {
                 System.out.print(name + " ");
             }
+
+            reader.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

@@ -26,5 +26,6 @@ public class Runner {
         fw.write(line);
         System.out.println("Дані записали у файл!");
         fw.close();
+        scanner.close();
     }
 }

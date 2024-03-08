@@ -70,7 +70,7 @@ public class Runner {
     }
 
     public static void showFileInDirectory(Set<String> files) {
-        System.out.println("Список файлів в каталозі: ");
+        System.out.println("Список файлів: ");
         int count = 1;
         for (String file : files) {
             String[] s = file.split("_");
