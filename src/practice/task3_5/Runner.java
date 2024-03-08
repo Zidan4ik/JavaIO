@@ -44,6 +44,7 @@ public class Runner {
                }
            }
        }
+       scanner.close();
     }
 
     public static Set<File> getFilesInDirectory(String dir) {
